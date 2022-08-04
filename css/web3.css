@@ -1,0 +1,29 @@
+body{
+	margin: 0 auto;
+	height: 100%;
+}
+
+#wrapper{
+	min-height: 100%; /*整個區塊高度為100%*/
+	margin-bottom: -30px; /*等一下footer 的高度會是100px */
+}
+#banner{
+	height: 70px;
+	width: 100%;
+}
+#menu{
+	height: 50px;
+	width: 100%;
+	background-color: #98E0EB;
+	color: #ffffff; /*區塊內的文字為白色*/
+}
+#content{
+	min-height: 300px;
+	width: 100%;
+}
+#footer{
+	height: 30px;
+	width: 100%;
+	background-color: #000000;
+	color: #ffffff;
+}
